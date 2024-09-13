@@ -1,0 +1,228 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+/*color grey #899CA0 color darkgreen #1C2B32*/
+/*NB: I assumed the text in main is black, I cannot see properly*/
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    max-width: 1000px;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+h3 {
+    margin: 40px 0;
+    font-size: 28px;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+/*///////////// 3.1 Header /////////////*/
+.header {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 1000px;
+    color: #1C2B32;
+    font-size: 11px;
+    padding: 50px 0 300px 0;
+}
+
+header {
+    background-image: url('../assets/images/mountains.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header p {
+    padding: 30px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 70px;
+    margin: 0;
+}
+
+input {
+    border-radius: 24px 0 0 24px;
+    padding: 13.5px 50px 13.5px 20px;
+    font-size: 11px;
+    color: #1C2B32;
+    border: 1.5px solid #1C2B32;
+    background-color: transparent;
+}
+
+.header input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #1C2B32;
+}
+
+#domain-submit {
+    border-radius: 0 24px 24px 0;
+    margin-left: -5px;
+    background-color: #1C2B32;
+    color: #FFF;
+    padding: 15px 20px;
+    font-size: 11px;
+    border: none;
+}
+
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+.testimonial-block {
+
+    border-radius: 8px;
+    padding: 50px;
+    padding-top: 20px;
+    text-align: left;
+    margin: 30px;
+    box-shadow: #899CA0 0 5px 19px;
+    display: inline-block;
+    position: relative;
+    font-size: 13px;
+}
+
+blockquote {
+    margin: 40px 40px 20px 80px;
+    text-align: left;
+    display: inline-block;
+}
+
+.testimonials img {
+    display: inline;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    vertical-align: middle;
+}
+
+.cite-name {
+    display: inline;
+    padding: 20px 80px;
+}
+
+cite {
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.quote-icon {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+
+/*///////////// 3.3 Support /////////////*/
+
+.callcenter {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.support p {
+    text-align: left;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+a {
+    color: #899CA0;
+}
+
+a:hover {
+    text-decoration-line: none;
+}
+
+#contactbutton {
+    border-radius: 24px 24px;
+    background-color: #1C2B32;
+    color: #FFF;
+    padding: 15px 20px;
+    font-size: 15px;
+    border: none;
+}
+
+.contact {
+    text-align: left;
+}
+
+/*///////////// 3.4 Faq /////////////*/
+
+details div {
+    background-color: #899CA0;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+    color: #FFF;
+    font-weight: 400;
+}
+
+details {
+    padding: 10px 0;
+    font-weight: 400;
+    text-align: left;
+    font-size: 14px;
+}
+
+summary {
+    padding: 10px 0;
+}
+
+/*///////////// 3.5 Footer /////////////*/
+
+.foot {
+    background-color: #1C2B32;
+    width: 100%;
+}
+
+.foot p {
+    background-color: #1C2B32;
+    width: 100%;
+    color: #FFF;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 13px;
+}
